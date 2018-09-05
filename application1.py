@@ -11,7 +11,7 @@ caller_id="+19015988438"
 callers={
     "+19013412717": "Butt head",
     "+19012163984": "Mr. Poopie pants",
-    "+19014966161": "Senor Noriega",
+    "+19014966161": "General Noriega",
 }
 
 
@@ -35,7 +35,7 @@ def wrong_number():
     if from_number in callers:
         resp.say("Hello, "+callers[from_number])
         #resp.say("Enter the number you want to call, followed by pound.")
-        g = Gather(numDigits=10,finishOnKey='#', action="/handle-key", method="POST")
+        g = Gather(numDigits=11,finishOnKey='#', action="/handle-key", method="POST")
         g.say("Enter the number you want to call, followed by pound.")
         resp.append(g)
 
