@@ -9,10 +9,9 @@ app = Flask(__name__)
 caller_id="+19015988438"
 
 callers={
-    "+19015170478": "Dog",
-    "+19013412717": "Eduardo",
-    "+19012163984": "Billy Jean",
-    "+19014966161": "Tommy",
+    "+19013412717": "Butt head",
+    "+19012163984": "Mr. Poopie pants",
+    "+19014966161": "Senor Noriega",
 }
 
 
