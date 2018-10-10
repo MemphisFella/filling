@@ -16,18 +16,6 @@ callers={
 
 
 @app.route("/voice",methods=['GET','POST'])
-#def voice(): 
- #   dest_number=request.values.get('PhoneNumber',default_client)
-  #  resp=VoiceResponse()
-
-   # with resp.dial(callerId=caller_id) as r:
-    #    if dest_number and re.search('^[\d\(\)\- \+]+$',dest_number):
-     #       r.number(dest_number)
-      #  else:
-       #     r.client(dest_number)
-    #return str(resp)
-
-
 def wrong_number():
     from_number=request.values.get('From',None)
     resp=VoiceResponse()
