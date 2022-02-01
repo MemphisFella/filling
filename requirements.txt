@@ -95,7 +95,7 @@ tensorflow==1.4.1
 tensorflow-tensorboard==0.4.0rc3
 termcolor==1.1.0
 tqdm==4.19.5
-treq==17.3.0
+treq==22.1.0
 twilio==6.10.3
 Twisted==17.9.0
 uritemplate==3.0.0
