@@ -97,7 +97,7 @@ termcolor==1.1.0
 tqdm==4.19.5
 treq==17.3.0
 twilio==6.10.3
-Twisted==17.9.0
+Twisted==22.1.0
 uritemplate==3.0.0
 urllib3==1.22
 w3lib==1.18.0
