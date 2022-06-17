@@ -83,7 +83,7 @@ rsa==3.4.2
 scikit-image==0.13.1
 scipy==1.0.0
 scrapinghub==2.0.3
-Scrapy==1.4.0
+Scrapy==2.6.1
 scrapy-crawlera==1.2.4
 semantic-version==2.5.0
 service-identity==17.0.0
